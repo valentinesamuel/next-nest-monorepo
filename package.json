@@ -1,0 +1,16 @@
+{
+	"name": "next-nest-monorepo",
+	"private": true,
+	"scripts": {
+		"dev": "turbo dev",
+		"build": "turbo build",
+		"test": "turbo test",
+		"lint": "turbo lint",
+		"start": "node apps/api/dist/main",
+		"format": "prettier --write \"**/*.{ts,tsx,md}\""
+	},
+	"devDependencies": {
+		"prettier": "^3.0.0",
+		"turbo": "^1.13.3"
+	}
+}
